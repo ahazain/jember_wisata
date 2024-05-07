@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "922327759741",
+    "project_id": "jemberwisataapp",
+    "storage_bucket": "jemberwisataapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922327759741:android:bb418cbb56e83ad65daa14",
+        "android_client_info": {
+          "package_name": "com.example.jember_wisata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQoL5nyDYzbUU21VBLoZ9EFEvyzArXx6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
