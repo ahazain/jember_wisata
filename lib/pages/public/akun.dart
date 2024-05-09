@@ -1,4 +1,9 @@
+import "dart:math";
+
 import "package:flutter/material.dart";
+import "package:jember_wisata/pages/login.dart";
+import "package:jember_wisata/pages/public/buttonnav.dart";
+import "package:jember_wisata/pages/public/home.dart";
 
 class akun extends StatefulWidget {
   const akun({super.key});
@@ -10,6 +15,39 @@ class akun extends StatefulWidget {
 class _akunState extends State<akun> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircleAvatar(
+              radius: 50,
+              // Ganti dengan gambar profil Anda
+              backgroundImage: AssetImage(''),
+            ),
+            SizedBox(height: 20),
+            Text(
+              'Surahki', // Ganti dengan nama pengguna Anda
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => login(),
+                  ),
+                );
+              },
+              child: Text('keluar'),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }

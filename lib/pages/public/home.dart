@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jember_wisata/pages/public/detail_wisata/details.dart';
 import 'package:jember_wisata/widget/widget_support.dart';
 
 class HomePage extends StatefulWidget {
@@ -112,31 +113,33 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 20.0),
             GestureDetector(
               onTap: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => DetailPage()),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => details()),
+                );
               },
-              child: Stack(
-                children: [
-                  Image.network(
-                    "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
-                    height: 218,
-                  ),
-                  Positioned(
-                    top: 150,
-                    left: 0,
-                    right: 0,
-                    child: Container(
-                      color: Color.fromARGB(82, 159, 159, 159),
-                      padding: EdgeInsets.symmetric(vertical: 20.0),
-                      child: Center(
-                        child: Text("Pantai Papuma",
-                            style: AppWidget.headTextFieldStyle()),
+              child: Center(
+                child: Stack(
+                  children: [
+                    Image.network(
+                      "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
+                      height: 218,
+                    ),
+                    Positioned(
+                      top: 150,
+                      left: 0,
+                      right: 0,
+                      child: Container(
+                        color: Color.fromARGB(82, 159, 159, 159),
+                        padding: EdgeInsets.symmetric(vertical: 20.0),
+                        child: Center(
+                          child: Text("Pantai Papuma",
+                              style: AppWidget.headTextFieldStyle()),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox(height: 20.0),
@@ -147,26 +150,28 @@ class _HomePageState extends State<HomePage> {
                 //   MaterialPageRoute(builder: (context) => DetailPage()),
                 // );
               },
-              child: Stack(
-                children: [
-                  Image.network(
-                    "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
-                    height: 218,
-                  ),
-                  Positioned(
-                    top: 150,
-                    left: 0,
-                    right: 0,
-                    child: Container(
-                      color: Color.fromARGB(82, 159, 159, 159),
-                      padding: EdgeInsets.symmetric(vertical: 20.0),
-                      child: Center(
-                        child: Text("Pantai Papuma",
-                            style: AppWidget.headTextFieldStyle()),
+              child: Center(
+                child: Stack(
+                  children: [
+                    Image.network(
+                      "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
+                      height: 218,
+                    ),
+                    Positioned(
+                      top: 150,
+                      left: 0,
+                      right: 0,
+                      child: Container(
+                        color: Color.fromARGB(82, 159, 159, 159),
+                        padding: EdgeInsets.symmetric(vertical: 20.0),
+                        child: Center(
+                          child: Text("Pantai Papuma",
+                              style: AppWidget.headTextFieldStyle()),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox(height: 20.0),
@@ -177,26 +182,28 @@ class _HomePageState extends State<HomePage> {
                 //   MaterialPageRoute(builder: (context) => DetailPage()),
                 // );
               },
-              child: Stack(
-                children: [
-                  Image.network(
-                    "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
-                    height: 218,
-                  ),
-                  Positioned(
-                    top: 150,
-                    left: 0,
-                    right: 0,
-                    child: Container(
-                      color: Color.fromARGB(82, 159, 159, 159),
-                      padding: EdgeInsets.symmetric(vertical: 20.0),
-                      child: Center(
-                        child: Text("Pantai Papuma",
-                            style: AppWidget.headTextFieldStyle()),
+              child: Center(
+                child: Stack(
+                  children: [
+                    Image.network(
+                      "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
+                      height: 218,
+                    ),
+                    Positioned(
+                      top: 150,
+                      left: 0,
+                      right: 0,
+                      child: Container(
+                        color: Color.fromARGB(82, 159, 159, 159),
+                        padding: EdgeInsets.symmetric(vertical: 20.0),
+                        child: Center(
+                          child: Text("Pantai Papuma",
+                              style: AppWidget.headTextFieldStyle()),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox(height: 20.0),
@@ -207,26 +214,28 @@ class _HomePageState extends State<HomePage> {
                 //   MaterialPageRoute(builder: (context) => DetailPage()),
                 // );
               },
-              child: Stack(
-                children: [
-                  Image.network(
-                    "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
-                    height: 218,
-                  ),
-                  Positioned(
-                    top: 150,
-                    left: 0,
-                    right: 0,
-                    child: Container(
-                      color: Color.fromARGB(82, 159, 159, 159),
-                      padding: EdgeInsets.symmetric(vertical: 20.0),
-                      child: Center(
-                        child: Text("Pantai Papuma",
-                            style: AppWidget.headTextFieldStyle()),
+              child: Center(
+                child: Stack(
+                  children: [
+                    Image.network(
+                      "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
+                      height: 218,
+                    ),
+                    Positioned(
+                      top: 150,
+                      left: 0,
+                      right: 0,
+                      child: Container(
+                        color: Color.fromARGB(82, 159, 159, 159),
+                        padding: EdgeInsets.symmetric(vertical: 20.0),
+                        child: Center(
+                          child: Text("Pantai Papuma",
+                              style: AppWidget.headTextFieldStyle()),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             SizedBox(height: 20.0),
@@ -237,26 +246,28 @@ class _HomePageState extends State<HomePage> {
                 //   MaterialPageRoute(builder: (context) => DetailPage()),
                 // );
               },
-              child: Stack(
-                children: [
-                  Image.network(
-                    "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
-                    height: 218,
-                  ),
-                  Positioned(
-                    top: 150,
-                    left: 0,
-                    right: 0,
-                    child: Container(
-                      color: Color.fromARGB(82, 159, 159, 159),
-                      padding: EdgeInsets.symmetric(vertical: 20.0),
-                      child: Center(
-                        child: Text("Pantai Papuma",
-                            style: AppWidget.headTextFieldStyle()),
+              child: Center(
+                child: Stack(
+                  children: [
+                    Image.network(
+                      "https://4.bp.blogspot.com/-aIV3NUiKsrk/Ul7bhmliTLI/AAAAAAAADWk/udAysmRkqrU/s1600/gbr+papuma.jpg",
+                      height: 218,
+                    ),
+                    Positioned(
+                      top: 150,
+                      left: 0,
+                      right: 0,
+                      child: Container(
+                        color: Color.fromARGB(82, 159, 159, 159),
+                        padding: EdgeInsets.symmetric(vertical: 20.0),
+                        child: Center(
+                          child: Text("Pantai Papuma",
+                              style: AppWidget.headTextFieldStyle()),
+                        ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ],

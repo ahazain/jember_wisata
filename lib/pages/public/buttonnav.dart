@@ -22,9 +22,9 @@ class _ButtonNavState extends State<buttonNav> {
   @override
   void initState() {
     homapage = HomePage();
-    Akun = akun();
     acara_tahunan = acaratahunan();
-    pages = [homapage, Akun, acara_tahunan];
+    Akun = akun();
+    pages = [homapage, acara_tahunan, Akun];
     super.initState();
   }
 
