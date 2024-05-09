@@ -72,19 +72,6 @@ class _registerState extends State<register> {
                     ),
                   ),
                 ),
-                SizedBox(height: 10),
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: TextButton(
-                    onPressed: () {
-                      // Tambahkan fungsi untuk menangani lupa kata sandi di sini
-                    },
-                    child: Text(
-                      "Lupa Kata Sandi?",
-                      style: AppWidget.umumTextFieldStyle(),
-                    ),
-                  ),
-                ),
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
@@ -128,8 +115,8 @@ class _registerState extends State<register> {
                         ),
                         TextSpan(
                           text: 'Masuk',
-                          style: AppWidget.umumTextFieldStyle().copyWith(
-                              color: const Color.fromARGB(255, 0, 117, 213)),
+                          style: AppWidget.umumTextFieldStyle()
+                              .copyWith(color: Colors.blue[300]),
                         ),
                       ],
                     ),
