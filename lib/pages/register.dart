@@ -21,7 +21,7 @@ class _registerState extends State<register> {
   TextEditingController emailcontroller = new TextEditingController();
 
   final _formkey = GlobalKey<FormState>();
-//logika registrasi
+//logika registrasi========================
   void registration() async {
     if (password != null) {
       try {
@@ -149,6 +149,7 @@ class _registerState extends State<register> {
                   SizedBox(height: 20),
                   ElevatedButton(
                     onPressed: () {
+                      //mengecek ketika onklik sesuai logika====
                       if (_formkey.currentState!.validate()) {
                         setState(() {
                           email = emailcontroller.text;
