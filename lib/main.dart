@@ -1,9 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:jember_wisata/firebase_options.dart';
-import 'package:jember_wisata/screens/home.dart';
-
-import 'screens/register.dart';
+import 'package:jember_wisata/pages/public/buttonnav.dart';
+import 'package:jember_wisata/pages/public/home.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primaryColor: Colors.blue[900],
       ),
-      home: HomePage(),
+      home: buttonNav(),
     );
   }
 }
