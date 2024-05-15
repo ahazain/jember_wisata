@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:jember_wisata/firebase_options.dart';
+import 'package:jember_wisata/pages/admin/homeAdmin.dart';
 import 'package:jember_wisata/pages/login.dart';
 import 'package:jember_wisata/pages/public/detail_event/details.dart';
 import 'package:jember_wisata/pages/register.dart';
@@ -28,7 +29,9 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primaryColor: Colors.blue[900],
       ),
-      home: register(),
+      home: homeAdmin(
+        title: '',
+      ),
     );
   }
 }
